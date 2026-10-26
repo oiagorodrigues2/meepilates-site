@@ -80,6 +80,9 @@ pedir. Só vale o que está neste arquivo.
   permite uso comercial; o Hobby da Vercel não permite). Deploy automático
   no push da `main`: `npm run build` e depois `npx wrangler deploy`, que lê
   `wrangler.jsonc` (serve `dist/`).
+- Produção: https://meepilates-site.contato-iagorodrigues.workers.dev
+  (meepilates.com.br continua no Wix até a troca do DNS). Cada branch
+  ganha um preview em `*-meepilates-site.contato-iagorodrigues.workers.dev`.
 
 ### Comandos
 - `npm run dev`: servidor local.
