@@ -76,7 +76,9 @@ pedir. Só vale o que está neste arquivo.
 - Astro 7 (site estático) + Tailwind CSS 4, TypeScript estrito.
 - Node >= 22.23.4 (`.nvmrc` fixa 24). Se o Node local for mais antigo,
   rode com `npx -y node@24 node_modules/astro/bin/astro.mjs <comando>`.
-- Hospedagem: Vercel, deploy automático no push da `main`.
+- Hospedagem: Cloudflare Pages (plano gratuito, permite uso comercial;
+  o Hobby da Vercel não permite). Deploy automático no push da `main`,
+  build `npm run build`, saída `dist`.
 
 ### Comandos
 - `npm run dev`: servidor local.

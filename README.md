@@ -1,6 +1,6 @@
 # meepilates-site
 
-Site do Mee Pilates ([meepilates.com.br](https://meepilates.com.br)), em Astro + Tailwind, publicado na Vercel.
+Site do Mee Pilates ([meepilates.com.br](https://meepilates.com.br)), em Astro + Tailwind, publicado no Cloudflare Pages.
 
 ```bash
 npm install
