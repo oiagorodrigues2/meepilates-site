@@ -1,6 +1,6 @@
 # meepilates-site
 
-Site do Mee Pilates ([meepilates.com.br](https://meepilates.com.br)), em Astro + Tailwind, publicado no Cloudflare Pages.
+Site do Mee Pilates ([meepilates.com.br](https://meepilates.com.br)), em Astro + Tailwind, publicado no Cloudflare Workers (assets estáticos).
 
 ```bash
 npm install

@@ -1,0 +1,10 @@
+// Deploy no Cloudflare Workers como site estático: o build do Astro gera
+// dist/ e o Worker só serve esses arquivos, sem código de servidor.
+{
+  "name": "meepilates-site",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}
